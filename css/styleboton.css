@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    }
+    .page{
+        border: 3px solid green;
+        width: 50%;
+        margin: 20px auto;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .boton{
+        display: inline-block;
+        /* para insertar borde y padding */
+        margin: 15px 10px;
+        padding: 8px;
+        border-radius: 15px;
+        background-color: green;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        /* cambia el texto a mayuscula*7
+        /* lowercase minuscla */
+        transition: all 1300ms;
+    }
+    .boton:hover{
+        opacity: 0.8;
+        color: black;
+        background-color: orange;
+    }
+    .boton:active, a:active{
+        transform: scale(0.5);
+    }

@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: azure;
+    margin: 50px;
+}
+
+#contenedor {
+    width: 600px;
+    height: 800px; 
+    background-color: #82aceb;
+    /*margin: 150px; */
+    margin: 0 auto;
+    padding: 1px;
+    box-shadow: 20px 20px 10px rgba(112, 103, 103, 0.5);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+header {
+    background-color: #f4f5f7;
+    margin: 1em;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgb(112, 103, 103);
+}
+
+#contenido {
+    height: 75%;
+   /* background-color: #f9d99a; */
+   background-color: rgb(238, 240, 247);
+   border-style:dashed;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 3px rgba(112, 103, 103, 0.5);
+}
+
+section {
+    width: 33%;
+    height: 93%;
+    background-color: #acd8c0;
+    color: white;
+    margin-left: 20px;
+    margin-top: 16px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    font-family:Verdana;
+}
+h3 {
+    padding-top: 130%;
+}
+
+a:hover{
+    background-color: rgb(230, 230, 190);
+    color: black;
+}
+
+a:active{
+    transform: scale(0.5);
+}
+
+nav {
+    width: 55%;
+    height: 93%;
+    background-color:#a9dce9;
+    
+    margin: 16px;
+    padding: 2px;
+    border-radius: 15px;
+    text-align: center;
+    float: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+footer {
+    background-color: rgb(173, 215, 243);
+    margin: 1em;
+    height: 4%;
+    padding-top: 10px;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 5px 5px 3px rgba(112, 103, 103, 0.5);
+    }
+
+    p {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: azure;
+    }
+    .boton1 {
+        width: 90%;
+        height: 22px;
+        background-color: rgb(122, 204, 241);
+        margin: 10px;
+        border-radius: 15px;
+        float: left;
+        color: white;
+        text-decoration: none;
+        box-shadow: 3px 3px 3px rgba(112, 103, 103, 0.5);
+    }
+    
+    .boton2 {
+        width: 90%;
+        height: 22px;
+        background-color: rgb(202, 190, 233);
+        margin: 10px;
+        border-radius: 15px;
+        float: left;
+        color:white;
+        text-decoration: none;
+        box-shadow: 3px 3px 3px rgba(112, 103, 103, 0.5);
+    }
